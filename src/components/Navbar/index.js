@@ -13,7 +13,7 @@ export const Navbar = ({toggle}) => {
         <>
             <Nav>
                 <NavbarContainer>
-                    <NavLogo to='/'>Henri Michel</NavLogo>
+                    <NavLogo to='home'>Henri Michel</NavLogo>
                     <MobileIcon onClick={toggle} >
                         <FaBars/>
                     </MobileIcon>
