@@ -4,7 +4,7 @@ import {HeroContainer,HeroBg,VideoBg,HeroContent,HeroH1,} from './HeroElements';
 
 const HeroSection = () => {
     return (
-        <HeroContainer id='home'>
+        <HeroContainer>
             <HeroBg>
                 <VideoBg autoPlay loop muted src ={Video}
                 type="video/mp4" />
