@@ -11,7 +11,6 @@ const HeroSection = () => {
             </HeroBg>
             <HeroContent>
                 <HeroH1>Desenvolvimento de aplicações performáticas, Mobile e Web, com foco na experiência de usuário.</HeroH1>
-                <HeroP>Tecnologias que já utilizei: Node, Firebase, React, React-Native,Bootstrap e Next.</HeroP>
             </HeroContent>
         </HeroContainer>
     )

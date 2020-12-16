@@ -5,6 +5,7 @@ MobileIcon,
 NavMenu,
 NavItem,
 NavLinks,
+NavLinks2,
 } from './NavbarElements';
 
 export const Navbar = ({toggle}) => {
@@ -27,7 +28,7 @@ export const Navbar = ({toggle}) => {
                             <NavLinks to="contato">Contato</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="github">Github</NavLinks>
+                            <NavLinks2 href="https://github.com/henri-miche" target="_blank">Github</NavLinks2>
                         </NavItem>
                     </NavMenu>
                 </NavbarContainer>
